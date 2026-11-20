@@ -316,9 +316,8 @@ def build():
     bot = [
         ("Weather · India", ill_cyclone,
          "Cyclone Akvan nears India's east coast",
-         "The severe storm is due to cross the Andhra Pradesh–Odisha coast by "
-         "noon on Friday, winds gusting to 110 km/h; tens of thousands moved "
-         "to safety.",
+         "Due to cross the Andhra Pradesh–Odisha coast by noon on Friday, "
+         "winds gusting to 110 km/h.",
          "India Meteorological Dept."),
         ("Conflict · Gaza", ill_road,
          "Israel ends ground raid across Gaza ceasefire line",
@@ -338,7 +337,7 @@ def build():
         ("Security · Vienna", ill_atom,
          "IAEA warns North Korea is expanding uranium enrichment",
          "The UN nuclear watchdog reported further expansion at North Korea's "
-         "enrichment facilities, as Seoul urged dialogue.",
+         "enrichment facilities.",
          "IAEA · Al Jazeera"),
     ]
     bw = (X1 - M - 4 * 14) // 5
